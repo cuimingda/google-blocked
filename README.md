@@ -20,7 +20,7 @@ $ npm install -g google-blocked
 $ blocked COMMAND
 running command...
 $ blocked (--version)
-google-blocked/1.0.3 darwin-x64 node-v16.15.0
+google-blocked/1.0.4 darwin-x64 node-v16.15.0
 $ blocked --help [COMMAND]
 USAGE
   $ blocked COMMAND
@@ -43,5 +43,5 @@ DESCRIPTION
   test google blocked
 ```
 
-_See code: [dist/commands/google/index.ts](https://github.com/cuimingda/google-blocked/blob/v1.0.3/dist/commands/google/index.ts)_
+_See code: [dist/commands/google/index.ts](https://github.com/cuimingda/google-blocked/blob/v1.0.4/dist/commands/google/index.ts)_
 <!-- commandsstop -->
