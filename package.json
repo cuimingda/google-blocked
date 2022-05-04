@@ -1,6 +1,6 @@
 {
   "name": "google-blocked",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "test internet blocking",
   "author": "cuimingda@gmail.com",
   "bin": {
