@@ -16,6 +16,9 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^5",
