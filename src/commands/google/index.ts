@@ -1,5 +1,6 @@
 import {Command, Flags} from '@oclif/core'
 import axios from 'axios'
+const logger = require('node-color-log');
 
 export default class Google extends Command {
   static description = 'test google blocked'
@@ -8,12 +9,15 @@ export default class Google extends Command {
 
 const self = this
 
-axios.get('https://www.google.com').catch(function(error) {
-self.error('google.com unreachable');
-}).then(function(response) {
-console.log('google.com reachable.')
-self.exit()
-});
+logger.setDate(() => (new Date()).toLocaleTimeString())
+
+axios.get('https://www.google.com')
+.then(function(response) {
+logger.success('google.com reachable.')
+})
+.catch(function(error) {
+logger.error('google.com unreachable');
+})
 
 
 

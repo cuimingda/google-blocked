@@ -1,6 +1,7 @@
 {
   "name": "google-blocked",
   "version": "1.0.2",
+  "packageManager": "yarn@3.2.0",
   "description": "test internet blocking",
   "author": "cuimingda@gmail.com",
   "bin": {
