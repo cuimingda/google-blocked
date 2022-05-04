@@ -16,11 +16,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @cuimingda/blocked
+$ npm install -g google-blocked
 $ blocked COMMAND
 running command...
 $ blocked (--version)
-@cuimingda/blocked/1.0.1 darwin-x64 node-v16.15.0
+google-blocked/1.0.1 darwin-x64 node-v16.15.0
 $ blocked --help [COMMAND]
 USAGE
   $ blocked COMMAND
@@ -64,7 +64,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/cuimingda/blocked/blob/v1.0.1/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/cuimingda/google-blocked/blob/v1.0.1/dist/commands/hello/index.ts)_
 
 ## `blocked hello world`
 
